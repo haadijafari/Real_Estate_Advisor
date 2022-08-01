@@ -1,2 +1,4 @@
 # Real_Estate_Advisor
-Java
+A program for Real Estate Advisors
+
+This program will help you sell or buy properties!
