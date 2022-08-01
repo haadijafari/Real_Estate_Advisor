@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Search {
 	// Search in buyers
-	class buyersSearchMenu {
+	static class buyersSearchMenu {
 		public static void menu(Scanner keyboard) {
 			// menu
 			System.out.println("Search in Buyers:\n" + "*********************\n" + "[1] Search with National ID\n"
@@ -57,7 +57,7 @@ public class Search {
 	}
 
 	// Search in sellers
-	class sellersSearchMenu {
+	static class sellersSearchMenu {
 		public static void menu(Scanner keyboard) {
 			// menu
 			System.out.println("Search in Sellers:\n" + "*********************\n" + "[1] Search with National ID\n"
@@ -110,7 +110,7 @@ public class Search {
 	}
 
 	// Search in properties
-	class propertiesSearchMenu {
+	static class propertiesSearchMenu {
 		public static void menu(Scanner keyboard) {
 			// menu
 			System.out.println("Search in Properties:\n" + "*********************\n" + "[1] Search with Zip Code\n"
